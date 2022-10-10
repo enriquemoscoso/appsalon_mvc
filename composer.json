@@ -1,0 +1,24 @@
+{
+    "name": "enrique.moscoso/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP 8, MVC, SQL, SASS, Gulp",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Enrique Moscoso",
+            "email": "enrique.moscoso@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./Models",
+            "Classes\\":"./classes"
+
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
